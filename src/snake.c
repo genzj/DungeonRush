@@ -1,3 +1,5 @@
+#define SDL_MAIN_HANDLED
+
 #include <ctype.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -29,4 +31,5 @@ int main(int argc, char** args) {
     }
   }
   cleanup();
+  return 0;
 }

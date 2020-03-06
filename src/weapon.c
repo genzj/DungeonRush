@@ -81,7 +81,7 @@ void initWeapons() {
   now->gap = 40;
   now->damage = 10;
   now->shootRange = 200;
-  now->bulletSpeed = 10;
+  now->bulletSpeed = 5;
   now->deathAni->angle = -1;
   now->deathAni->at = AT_CENTER;
   now->flyAni->scaled = false;
@@ -93,7 +93,7 @@ void initWeapons() {
   now->gap = 60;
   now->damage = 25;
   now->shootRange = 320;
-  now->bulletSpeed = 7;
+  now->bulletSpeed = 3;
   now->deathAni->angle = -1;
   now->deathAni->at = AT_CENTER;
   now->birthAudio = AUDIO_LIGHT_SHOOT;
@@ -106,7 +106,7 @@ void initWeapons() {
   now->wp = WEAPON_GUN_POINT;
   now->damage = 12;
   now->shootRange = 160;
-  now->bulletSpeed = 10;
+  now->bulletSpeed = 5;
   now->flyAni->duration = 24;
   now->flyAni->angle = -1;
   now->flyAni->scaled = false;
@@ -121,7 +121,7 @@ void initWeapons() {
   now->gap = 70;
   now->effectRange = 50;
   now->damage = 50;
-  now->bulletSpeed = 4;
+  now->bulletSpeed = 2;
   now->flyAni->duration = 24;
   now->flyAni->angle = -1;
   now->deathAni->at = AT_CENTER;
@@ -154,7 +154,7 @@ void initWeapons() {
   now->effectRange = 50;
   now->shootRange = 256;
   now->gap = 180;
-  now->bulletSpeed = 8;
+  now->bulletSpeed = 4;
   now->deathAni->angle = -1;
   now->flyAni->scaled = false;
   now->deathAni->at = AT_CENTER;
@@ -167,7 +167,7 @@ void initWeapons() {
   now->effectRange = 50;
   now->shootRange = 256;
   now->gap = 100;
-  now->bulletSpeed = 6;
+  now->bulletSpeed = 3;
   now->deathAni->angle = -1;
   now->deathAni->scaled = false;
   now->flyAni->scaled = false;
@@ -181,7 +181,7 @@ void initWeapons() {
   now->effectRange = 50;
   now->shootRange = 256;
   now->gap = 100;
-  now->bulletSpeed = 7;
+  now->bulletSpeed = 3;
   now->deathAni->angle = -1;
   now->deathAni->scaled = false;
   now->flyAni->scaled = false;

@@ -21,7 +21,7 @@ extern const int n, m;
 extern SDL_Renderer* renderer;
 
 extern Texture textures[TEXTURES_SIZE];
-const int MOVE_STEP = 2;
+const int MOVE_STEP = 1;
 
 extern LinkList animationsList[];
 extern Effect effects[];

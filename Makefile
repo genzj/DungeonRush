@@ -22,3 +22,7 @@ zip:
 	mv *.zip archive
 run: snake
 	./snake
+
+.PHONY: clean
+clean:
+	@-rm $(OBJ_NAME)
